@@ -1,49 +1,122 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width",initial-scale=1.0>
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="style.css"> 
-    </head>
-    <body>
-       
-        <nav class="navbar">
-            <div class="container">
-              <a href="#" class="logo">Portfolio</a>
-              <ul>
-                <li><a href="mailto:gabrielpieperlucas@gmail.com">Message</a></li>
-                <li><a href="https://github.com/Gabriel487-C" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/gabriel-pieper-lucas-a83418364/" target="_blank">LinkedIn</a></li>
-                <li><a href="tel:54999086400">(54) 99908-6400</a></li>
-              </ul>
+  </head>
+
+  <body>
+
+     <div class="container">
+      <h1>Portfolio</h1>
+       <div class="cabecalho">
+        <ul>
+  
+         <li><a href="mailto:gabrielpieperlucas@gmail.com" class="link"><span>Message</span></a></li>
+         <li><a href="https://github.com/Gabriel487-C" target="_blank" class="link"><span>GitHub</span></a></li>
+         <li><a href="https://www.linkedin.com/in/gabriel-pieper-lucas-a83418364/" class="link" target="_blank"><span>linkedin</span></a></li>
+         <li><a href="tel:54999086400" class="link"><span>(54) 99908-6400</span></a></li>
+        </ul>
+      </div>
+      <div class="box-principal">
+       <div class="box-resume">
+        <h1>Olá, Sou Gabriel Pieper Lucas</h1>
+        <h2><span class="hightlight">Frontend Developer</span></h1>
+        <p>Sou apaixonado por tecnologia e desenvolvimento, com foco em HTML, CSS, JavaScript e Python.<br> Tenho interesse constante em criar soluções práticas, interfaces intuitivas e explorar o potencial dessas linguagens no desenvolvimento web e automação. Estou sempre em busca de aprender mais, experimentar novas ferramentas e aperfeiçoar minhas habilidades movido por uma curiosidade e desejo por evolução e melhoria contínua. Gosto de transformar ideias em código e desafios em oportunidades de crescimento.</p>
+       </div>
+       <div class="box-photo">
+        <div class="circle">
+          <img src="imagens/ddd_2.png">
+        </div>
+       </div>
+      </div>   
+      <h1 class="Habilidades">Habilidades & Ferramentas</h1>
+      <div class="box-skills">
+        <div class="skills">
+          <h3>Linguagens De Programação</h3>
+         <img src="imagens/Html_Logo-removebg-preview.png">
+         <img src="imagens/javascript_log-removebg-preview.png">
+         <img src="imagens/Css_logo-removebg-preview.png">
+         <img src="imagens/Python-removebg-preview.png">
+         <img src="imagens/c_logo-removebg-preview.png">
+        </div>
+        <div class="Tecnology">
+          <h3>Ferramentas e Tecnologias</h3>
+          <img class="logo" src="imagens/git_log-removebg-preview.png">
+          <img class="github-logo" src="imagens/Github_logo-removebg-preview(1).png">
+          <img class="logo" src="imagens/VSCODE_LOGO-removebg-preview.png">
+        </div>
+      </div>
+      
+      <h1 class="pro">Projetos</h1>
+      <div class="projetcs">
+      
+        <div class="box-projetct">
+          <img src="imagens/Renomeador.png">
+          <h3>Renomeador De Arquivos PNG, JPEG E JPG</h3>
+          <p>Esse foi meu primeiro projeto Usando Python,<br>
+          crie um programa que renomea em massa varios arquvios<br>
+          PNG, JPEG e JPG, escolhemos um prefixo e depois através de <br>
+          um contador renomeamos os arquivos.
+          </p>
+         <a href="https://github.com/Gabriel487-C/Rename_Photos" target="_blank">
+          <button class="GitHub">Github Preview</button>
+         </a>
+        </div>
+
+        <div class="box-projetct">
+          <img src="imagens/Portfolio_4.png">
+          <h3>Gerador De Ticket</h3>
+          <p>Este projeto consiste em um gerador de tickets personalizado,<br>
+             criado com HTML, CSS e JavaScript puro. O usuário preenche um formulário<br>
+             com seus dados, e o sistema gera dinamicamente um ticket estilizado,<br>
+             simulando o layout real de um ingresso.</p>
+            <div class="botoes">
+             <a href="https://gabriel487-c.github.io/Ticket_Generator/" target="_blank"> 
+              <button class="Live Preview">Live Preview</button>
+             </a>
+             <a href="https://github.com/Gabriel487-C/Ticket_Generator" target="_blank">
+              <button class="GitHub">Github Preview</button>
+             </a>
             </div>
-          </nav>
+        </div>
 
-          <section class="home">
-             <div class="home-info">
-               <h1>Gabriel Pieper Lucas</h1>
-               <h2>About Me</h2>
-               <p>I`m a Junior Developer with a strong interest in backend development using Python and C. Alongside my Python skills, I also focus on front-end technologies like HTML and CSS, enabling me to build well-structured and visually appealing user interfaces.</p>
-               <p>I'm currently studying Computer Science and actively building personal projects to sharpen my skills.</p>
-               <h2>Projects</h2>
-               <h4>Renamer Program in Python:</h4>
-               <p>In this project, I developed a Python script that automates the task of renaming multiple files in a folder quickly and efficiently. Often, when we download photos or documents, they come with random or confusing names that make organization difficult. This tool applies a customizable and consistent naming pattern to files in bulk, making it easier to manage and find them later.
+        <div class="box-projetct">
+          <img src="imagens/Conversor_de_Moeda.png">
+          <h3>Conversor de Dolar Para Real</h3>
+          <p>Este projeto é um conversor de moedas desenvolvido com HTML, CSS e JavaScript,<br>
+             integrando uma API de câmbio em tempo real para obter a cotação atual do dólar.<br>
+             O usuário digita o valor em dólares e o sistema retorna automaticamente o equivalente<br>
+             em reais, com base na taxa de câmbio mais recente.</p>
+            <div class="botoes">
+             <a href="https://gabriel487-c.github.io/USD-TO-BRL/" target="_blank">
+              <button class="Live Preview">Live Preview</button>
+             </a>
+             <a href="https://github.com/Gabriel487-C/USD-TO-BRL" target="_blank">
+             <button class="GitHub">Github Preview</button>
+             </a> 
+            </div>
+        </div>
 
-                This project showcases my skills in file handling, using Python’s os library to interact with the filesystem, and implementing logic to process batches of files efficiently. It’s a practical solution to a common everyday problem and can be easily adapted for different file types and use cases.</p>
+        
+      </div>
+      <h1 class="des">Designs Diversos</h1>
+      <div class="designs">
+        <img src="imagens/Captura de tela 2025-07-27 082013.png">
+        <img src="imagens/Portfolio_1.png">
+        <img src="imagens/Portfolio_2.png">
+      </div>
 
-              </div>
-              <div class="home-img">
-                <div class="img-box">
-                  <div class="img-item">
-                    <img src="ddd_2.png" alt="image">
-                  </div>
-                </div>
-              </div>
-             
-              
-           </section>
-
-    </body>
+      <div class="footer">
+        <p>Copyright 2025 GL</p>
+        <p>Desenvolvido By Gabriel Lucas</p>
+      </div>
+     </div>
+     <script src="script.js"></script>
+  </body>
 </html>
